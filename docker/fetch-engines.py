@@ -35,6 +35,7 @@ FLAVORS = {
     "cuda12": ("cuda", "cuda12", "cuda"),
     "rocm-gfx120x": ("hip", "rx9070", "hip"),       # RX 9000, Radeon AI PRO R9700 (gfx1200 / gfx1201)
     "rocm-gfx110x": ("hip", "rx7900", "hip"),       # RX 7000 (gfx1100 / gfx1101 / gfx1102)
+    "rocm-gfx103x": ("hip", "rx6000", "hip"),       # RX 6800 / 6900 series (gfx1030 / gfx1031)
     "rocm-gfx1151": ("hip", "halo", "hip"),         # Strix Halo (gfx1151)
     "sycl": ("sycl", None, "sycl"),                 # Intel Arc; only when the release has a Linux SYCL package
 }
